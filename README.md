@@ -6,3 +6,6 @@ Then in the inputfile for lammps using the command:
 pair_style      quart/cut 1.5
 pair_coeff      * * 1.0 1.0 -1.0 0.0 1.0
 in the pair_coeff, the first term is $epsilon$; The second term is $sigma$; "1" and "0" used to whether open open the second term and third term in the equation
+
+**The Cauchy-Schwarz Inequality**
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
