@@ -18,7 +18,6 @@ To utilize this potential in LAMMPS, follow these steps:
 2. Recompile LAMMPS.
 
 In the input file for LAMMPS, use the following commands:
-In the input file for LAMMPS, use the following commands:
 
 - `pair_style quart/cut 1.5`: This command sets the pair style to quartic potential with a cutoff distance of 1.5 units. It models the interaction between particles in the system.
 
