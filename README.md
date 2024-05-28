@@ -25,6 +25,6 @@ In the input file for LAMMPS, use the following commands:
   - The first two asterisks (*) indicate that these coefficients apply to all pairs of atoms in the system.
   - The first two numbers (1.0 1.0) represent the energy and length scale parameters, $\epsilon$ and $\sigma$, respectively.
   - The third number (-1.0) modifies the potential to eliminate discontinuities in both $u(r)$ and $-u'(r)$.
-  - The fourth and fifth numbers (0.0 1.0) control whether to open or close the second and third terms in the LJ potential equation, respectively. In this case, they are set to 0.0 and 1.0, indicating that both terms are included.
+  - The fourth and fifth numbers (0.0 1.0) control whether to open or close the second and third terms in the LJ potential equation, respectively. In this case, In this case, the second term is excluded (0.0) and the third term is included (1.0).
 
 
